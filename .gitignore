@@ -1,0 +1,29 @@
+.DS_Store
+.claude/settings.local.json
+
+# 環境変数（秘密の値を含む）
+.env
+
+# 実行時に作られるファイル
+logs/
+logs-e2e/
+backups/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Node
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# テストの成果物
+tests/reports/
+tests/evidence/
+tests/playwright-report/
+tests/test-results/
